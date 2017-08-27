@@ -14,4 +14,10 @@ export class ShoppingListComponent{
         new Ingredient('Spinach',850)
         
     ];
+
+    onIngredientAdded(ingredient: Ingredient){
+
+        this.ingredients.push(ingredient);
+
+    }
 }
